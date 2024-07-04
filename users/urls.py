@@ -9,4 +9,3 @@ urlpatterns = [
     path('user/', UserView.as_view(), name='user'),
     path('welcome/', welcome_view, name='welcome'),
 ]
-
