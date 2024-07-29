@@ -1,0 +1,129 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.pkl
+__pycache__/
+local_settings.py
+*.sqlite3-journal
+
+# Media
+media
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Static files
+staticfiles/
+static/
+
+# Django's collectstatic folder
+/staticfiles/
+# Avoid checking in generated static files.
+*.css.map
+*.js.map
+
+# Django's local database
+db.sqlite3
+
+# Secret key or sensitive information
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv.bak/
+
+# Python egg
+*.egg
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Test output
+.pytest_cache/
+test-reports/
+
+# Miscellaneous
+*.project
+*.pydevproject
+*.code-workspace
+*.tmproj
+*.tmproj.LAST_BUILD
+
+# PostgreSQL
+*.psql
+*.pgpass
+*.pgdb

@@ -1,4 +1,5 @@
-from django.contrib.auth.models import User
+#views.pyfrom django.contrib.auth.models import User
+
 from rest_framework import generics, permissions
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
@@ -9,6 +10,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import generics, permissions
 from rest_framework.response import Response
+from django.contrib.auth.models import User
 from rest_framework_simplejwt.tokens import RefreshToken
 from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
